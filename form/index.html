@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW-FORM</title>
+    <style>
+        input { margin: 10px;
+            font-family: Arial, sans-serif;
+
+        }
+        span{
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" onsubmit="submitForm(event)">
+        <label for="">Name :
+            <input type="text" name="name" id="name" /></label>
+            <br><span class="error">fdsa</span><br>
+        <label for="">Email :
+            <input type="email" name="email" id="email" /></label>
+            <br><span class="error">fdsa</span><br>
+        <label for="">Password :
+        <input type="password" name="password" id="password" /></label>
+        <br><span class="error">fdsa</span><br>
+        <label for="">Gender :
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female"> female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </label>
+        <br><span class="error">fdsa</span><br>
+        <input type="submit" name="submit" id="submit">
+    </form>
+    <script src="form.js"></script>
+</body>
+
+</html>
